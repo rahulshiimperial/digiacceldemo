@@ -1,135 +1,125 @@
-📌To-Do List Application **
+<h1>📌 To-Do List Application</h1>
 
+<p>
 A fully responsive MERN-based To-Do management application that allows users to create, update, delete, search, and track their tasks with weekly summaries and status insights.
+</p>
 
-🚀 Live Demo
+<h2>🚀 Live Demo</h2>
 
-Frontend (Live)
-🔗 https://digiaccelclient.vercel.app/
+<ul>
+  <li><strong>Frontend (Live):</strong> <a href="https://digiaccelclient.vercel.app/" target="_blank">https://digiaccelclient.vercel.app/</a></li>
+  <li><strong>Backend (Live API):</strong> <a href="https://digiacceldemo.onrender.com" target="_blank">https://digiacceldemo.onrender.com</a></li>
+  <li><strong>GitHub Repository:</strong> <a href="https://github.com/rahulshiimperial/digiacceldemo" target="_blank">https://github.com/rahulshiimperial/digiacceldemo</a></li>
+</ul>
 
-Backend (Live API)
-🔗 https://digiacceldemo.onrender.com
+<h2>📖 Overview</h2>
 
-GitHub Repository
-🔗 https://github.com/rahulshiimperial/digiacceldemo
+<p>
+This To-Do List App is designed to help users manage tasks efficiently with an intuitive interface. 
+It organizes tasks week-wise (Monday–Sunday) and displays open vs. completed tasks for each week. 
+The app includes powerful search, task status management, and seamless CRUD operations.
+</p>
 
-📖 Overview
+<h2>🎯 Features</h2>
 
-This To-Do List App is designed to help users manage tasks efficiently with an intuitive interface. It organizes tasks week-wise (Monday–Sunday) and displays open vs. completed tasks for each week. The app includes powerful search, task status management, and seamless CRUD operations.
+<h3>1. Task Management</h3>
+<ul>
+  <li>Create new tasks</li>
+  <li>Edit existing tasks</li>
+  <li>Delete tasks</li>
+</ul>
 
-🎯 Features
+<strong>Task properties include:</strong>
+<ul>
+  <li>Title (mandatory)</li>
+  <li>Description (optional)</li>
+  <li>Date &amp; Time (mandatory)</li>
+  <li>Priority → Low, Medium, High</li>
+  <li>Status → Open, In Progress, Completed</li>
+</ul>
 
-1. Task Management
+<h3>2. Search</h3>
+<ul>
+  <li>Search tasks by title or description</li>
+  <li>View, edit, or delete tasks from search results</li>
+</ul>
 
-Create new tasks
+<h3>3. Weekly Overview</h3>
+<ul>
+  <li>Tasks automatically grouped by week (Mon–Sun)</li>
+  <li>Weekly cards show:</li>
+  <ul>
+    <li>Total open tasks</li>
+    <li>Total completed tasks</li>
+  </ul>
+  <li>Expand card to view all tasks in that week</li>
+</ul>
 
-Edit existing tasks
+<h3>4. Task Status Update</h3>
+<ul>
+  <li>Mark tasks as completed or toggle back to open</li>
+  <li>Weekly counters update instantly</li>
+</ul>
 
-Delete tasks
+<h3>5. Responsive UI</h3>
+<ul>
+  <li>Fully mobile-first &amp; responsive</li>
+  <li>Built using React + Tailwind CSS</li>
+</ul>
 
-Task properties include:
+<h2>🛠️ Tech Stack <span style="color:gray;">[ MERN STACK ]</span></h2>
 
-Title (mandatory)
+<h3>Frontend</h3>
+<ul>
+  <li>React</li>
+  <li>Next</li>
+  <li>Tailwind CSS</li>
+  <li>Axios / Fetch</li>
+  <li>Deployed on Vercel</li>
+</ul>
 
-Description (optional)
+<h3>Backend</h3>
+<ul>
+  <li>Node.js</li>
+  <li>Express</li>
+  <li>MongoDB (Mongoose)</li>
+  <li>Deployed on Render</li>
+</ul>
 
-Date & Time (mandatory)
+<h3>Environment Variables</h3>
 
-Priority → Low, Medium, High
-
-Status → Open, In Progress, Completed
-
-2. Search
-
-Search tasks by title or description
-
-View, edit, or delete tasks from search results
-
-3. Weekly Overview
-
-Tasks automatically grouped by week (Mon–Sun)
-
-Weekly cards show:
-
-Total open tasks
-
-Total completed tasks
-
-Expand card to view all tasks in that week
-
-4. Task Status Update
-
-Mark tasks as completed or toggle back to open
-
-Weekly counters update instantly
-
-5. Responsive UI
-
-Fully mobile-first & responsive
-
-Built using React + Tailwind CSS
-
-🛠️ Tech Stack  [ MERN STACK ]
-
-Frontend
-
-React
-
-Tailwind CSS
-
-Axios / Fetch
-
-Deployed on Vercel
-
-Backend
-
-Node.js
-
-Express
-
-MongoDB (Mongoose)
-
-Deployed on Render
-
-Environment Variables
-
-Backend requires:
-
+<strong>Backend requires:</strong>
+<pre>
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
+</pre>
 
+<strong>Frontend requires:</strong>
+<pre>
+REACT_APP_API_BASE=https://digiacceldemo.onrender.com
+</pre>
 
-Frontend requires:
+<h2>✔️ Completed Modules</h2>
 
-REACT_APP_API_BASE=[https://digiacceldemo.onrender.com](https://digiacceldemo.onrender.com)
+<ul>
+  <li>[x] Create Task</li>
+  <li>[x] Edit Task</li>
+  <li>[x] Delete Task</li>
+  <li>[x] Weekly grouping logic</li>
+  <li>[x] Status management</li>
+  <li>[x] Search functionality</li>
+  <li>[x] Fully responsive UI</li>
+  <li>[x] Backend API integration</li>
+  <li>[x] Deployment of both frontend & backend</li>
+</ul>
 
-
-✔️ Completed Modules
-
-[x] Create Task
-
-[x] Edit Task
-
-[x] Delete Task
-
-[x] Weekly grouping logic
-
-[x] Status management
-
-[x] Search functionality
-
-[x] Fully responsive UI
-
-[x] Backend API integration
-
-[x] Deployment of both frontend & backend
-
-🤝 Contributing
-
+<h2>🤝 Contributing</h2>
+<p>
 Feel free to fork the project, raise issues, or submit PRs.
+</p>
 
-📬 Contact
-
-For feedback or collaboration:
-Rahul Rai
-
+<h2>📬 Contact</h2>
+<p>
+For feedback or collaboration:<br>
+<strong>Rahul Rai</strong>
+</p>
