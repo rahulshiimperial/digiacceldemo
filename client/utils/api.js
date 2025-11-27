@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/tasks';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://digiacceldemo.onrender.com/api/tasks';
 
 export const getTasks = async () => {
   try {
